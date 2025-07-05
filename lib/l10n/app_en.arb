@@ -1,0 +1,169 @@
+{
+  "@@locale": "en",
+  "appTitle": "Demo App",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "weatherInCity": "{city}",
+  "@weatherInCity": {
+    "description": "Weather information for a specific city",
+    "placeholders": {
+      "city": {
+        "type": "String",
+        "example": "Ho Chi Minh"
+      }
+    }
+  },
+  "temperature": "{temperature}°C",
+  "@temperature": {
+    "description": "Temperature display with Celsius unit",
+    "placeholders": {
+      "temperature": {
+        "type": "double",
+        "example": "30.0"
+      }
+    }
+  },
+  "humidity": "Humidity: {humidity}%",
+  "@humidity": {
+    "description": "Humidity display with percentage",
+    "placeholders": {
+      "humidity": {
+        "type": "int",
+        "example": "70"
+      }
+    }
+  },
+  "windSpeed": "Wind: {speed} m/s",
+  "@windSpeed": {
+    "description": "Wind speed display with meters per second unit",
+    "placeholders": {
+      "speed": {
+        "type": "double",
+        "example": "5.0"
+      }
+    }
+  },
+  "imagesCount": "Images ({count})",
+  "@imagesCount": {
+    "description": "Images section title with count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "20"
+      }
+    }
+  },
+  "errorMessage": "Error: {message}",
+  "@errorMessage": {
+    "description": "Error message display",
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "Network error"
+      }
+    }
+  },
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+  "downloadImage": "Download Image",
+  "@downloadImage": {
+    "description": "Download image button text"
+  },
+  "downloading": "Downloading...",
+  "@downloading": {
+    "description": "Download in progress text"
+  },
+  "downloadedSuccessfully": "Downloaded Successfully",
+  "@downloadedSuccessfully": {
+    "description": "Download completed text"
+  },
+  "retryDownload": "Retry Download",
+  "@retryDownload": {
+    "description": "Retry download button text"
+  },
+  "imageSavedTo": "Image saved to: {path}",
+  "@imageSavedTo": {
+    "description": "Success message showing where image was saved",
+    "placeholders": {
+      "path": {
+        "type": "String",
+        "example": "/Documents/image.png"
+      }
+    }
+  },
+  "failedToLoadImage": "Failed to load image",
+  "@failedToLoadImage": {
+    "description": "Error message when image fails to load"
+  },
+  "unknownState": "Unknown state",
+  "@unknownState": {
+    "description": "Fallback text for unknown app state"
+  },
+  "imageTitle": "Image {number}",
+  "@imageTitle": {
+    "description": "Default title for images",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "imageDescription": "Beautiful image from Unsplash",
+  "@imageDescription": {
+    "description": "Default description for images"
+  },
+  "partlyCloudy": "Partly cloudy",
+  "@partlyCloudy": {
+    "description": "Default weather description"
+  },
+  "defaultImageTitle": "Image {number}",
+  "@defaultImageTitle": {
+    "description": "Default title for images when no title is provided",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "defaultImageDescription": "Beautiful image from Unsplash",
+  "@defaultImageDescription": {
+    "description": "Default description for images when no description is provided"
+  },
+  "errorFailedToLoadImages": "Failed to load images",
+  "@errorFailedToLoadImages": {
+    "description": "Error message when images fail to load"
+  },
+  "errorFailedToLoadWeather": "Failed to load weather",
+  "@errorFailedToLoadWeather": {
+    "description": "Error message when weather fails to load"
+  },
+  "errorFailedToFetchData": "Failed to fetch data",
+  "@errorFailedToFetchData": {
+    "description": "Error message when data fetching fails"
+  },
+  "errorFailedToDownloadImage": "Failed to download image",
+  "@errorFailedToDownloadImage": {
+    "description": "Error message when image download fails"
+  },
+  "errorFailedToDownloadAndResizeImage": "Failed to download and resize image",
+  "@errorFailedToDownloadAndResizeImage": {
+    "description": "Error message when image download and resize fails"
+  },
+  "errorFailedToConvertImage": "Failed to convert image to bytes",
+  "@errorFailedToConvertImage": {
+    "description": "Error message when image conversion fails"
+  },
+  "errorFailedToResizeImage": "Failed to resize image",
+  "@errorFailedToResizeImage": {
+    "description": "Error message when image resize fails"
+  },
+  "errorFailedToSaveImage": "Failed to save image",
+  "@errorFailedToSaveImage": {
+    "description": "Error message when image save fails"
+  }
+}
